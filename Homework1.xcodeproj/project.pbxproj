@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF5009FE14E600F6003948DC /* TwitterUsersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5009FD14E600F6003948DC /* TwitterUsersTests.m */; };
+		AF500A0214E60240003948DC /* TweetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF500A0114E60240003948DC /* TweetTests.m */; };
+		AF500A0514E60436003948DC /* TwitterUser.m in Sources */ = {isa = PBXBuildFile; fileRef = AF500A0414E60436003948DC /* TwitterUser.m */; };
+		AF500A0614E60436003948DC /* TwitterUser.m in Sources */ = {isa = PBXBuildFile; fileRef = AF500A0414E60436003948DC /* TwitterUser.m */; };
 		AFFC1F9114E5D242001E2CEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFC1F9014E5D242001E2CEA /* UIKit.framework */; };
 		AFFC1F9314E5D242001E2CEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFC1F9214E5D242001E2CEA /* Foundation.framework */; };
 		AFFC1F9514E5D242001E2CEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFC1F9414E5D242001E2CEA /* CoreGraphics.framework */; };
@@ -20,6 +24,7 @@
 		AFFC1FB114E5D242001E2CEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFC1F9214E5D242001E2CEA /* Foundation.framework */; };
 		AFFC1FB914E5D242001E2CEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFFC1FB714E5D242001E2CEA /* InfoPlist.strings */; };
 		AFFC1FBC14E5D242001E2CEA /* Homework1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFC1FBB14E5D242001E2CEA /* Homework1Tests.m */; };
+		AFFC1FC714E5D267001E2CEA /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFC1FC614E5D267001E2CEA /* Tweet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,25 +38,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF5009FC14E600F6003948DC /* TwitterUsersTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterUsersTests.h; sourceTree = "<group>"; };
+		AF5009FD14E600F6003948DC /* TwitterUsersTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterUsersTests.m; sourceTree = "<group>"; };
+		AF500A0014E60240003948DC /* TweetTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetTests.h; sourceTree = "<group>"; };
+		AF500A0114E60240003948DC /* TweetTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetTests.m; sourceTree = "<group>"; };
+		AF500A0314E60436003948DC /* TwitterUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterUser.h; sourceTree = "<group>"; };
+		AF500A0414E60436003948DC /* TwitterUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterUser.m; sourceTree = "<group>"; };
 		AFFC1F8C14E5D242001E2CEA /* Homework1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFC1F9014E5D242001E2CEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AFFC1F9214E5D242001E2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AFFC1F9414E5D242001E2CEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AFFC1F9814E5D242001E2CEA /* Homework1-Info.plist */ = {isa = PBXFileReference; path = "Homework1-Info.plist"; sourceTree = "<group>"; };
+		AFFC1F9814E5D242001E2CEA /* Homework1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Homework1-Info.plist"; sourceTree = "<group>"; };
 		AFFC1F9A14E5D242001E2CEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AFFC1F9C14E5D242001E2CEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AFFC1F9E14E5D242001E2CEA /* Homework1-Prefix.pch */ = {isa = PBXFileReference; path = "Homework1-Prefix.pch"; sourceTree = "<group>"; };
-		AFFC1F9F14E5D242001E2CEA /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFFC1F9E14E5D242001E2CEA /* Homework1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Homework1-Prefix.pch"; sourceTree = "<group>"; };
+		AFFC1F9F14E5D242001E2CEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AFFC1FA014E5D242001E2CEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AFFC1FA314E5D242001E2CEA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		AFFC1FA514E5D242001E2CEA /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		AFFC1FA514E5D242001E2CEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AFFC1FA614E5D242001E2CEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AFFC1FAD14E5D242001E2CEA /* Homework1Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Homework1Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFC1FAE14E5D242001E2CEA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		AFFC1FB614E5D242001E2CEA /* Homework1Tests-Info.plist */ = {isa = PBXFileReference; path = "Homework1Tests-Info.plist"; sourceTree = "<group>"; };
+		AFFC1FB614E5D242001E2CEA /* Homework1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Homework1Tests-Info.plist"; sourceTree = "<group>"; };
 		AFFC1FB814E5D242001E2CEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AFFC1FBA14E5D242001E2CEA /* Homework1Tests.h */ = {isa = PBXFileReference; path = Homework1Tests.h; sourceTree = "<group>"; };
+		AFFC1FBA14E5D242001E2CEA /* Homework1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Homework1Tests.h; sourceTree = "<group>"; };
 		AFFC1FBB14E5D242001E2CEA /* Homework1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Homework1Tests.m; sourceTree = "<group>"; };
+		AFFC1FC514E5D267001E2CEA /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		AFFC1FC614E5D267001E2CEA /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +130,10 @@
 				AFFC1FA514E5D242001E2CEA /* ViewController.h */,
 				AFFC1FA614E5D242001E2CEA /* ViewController.m */,
 				AFFC1F9714E5D242001E2CEA /* Supporting Files */,
+				AFFC1FC514E5D267001E2CEA /* Tweet.h */,
+				AFFC1FC614E5D267001E2CEA /* Tweet.m */,
+				AF500A0314E60436003948DC /* TwitterUser.h */,
+				AF500A0414E60436003948DC /* TwitterUser.m */,
 			);
 			path = Homework1;
 			sourceTree = "<group>";
@@ -138,6 +155,10 @@
 				AFFC1FBA14E5D242001E2CEA /* Homework1Tests.h */,
 				AFFC1FBB14E5D242001E2CEA /* Homework1Tests.m */,
 				AFFC1FB514E5D242001E2CEA /* Supporting Files */,
+				AF5009FC14E600F6003948DC /* TwitterUsersTests.h */,
+				AF5009FD14E600F6003948DC /* TwitterUsersTests.m */,
+				AF500A0014E60240003948DC /* TweetTests.h */,
+				AF500A0114E60240003948DC /* TweetTests.m */,
 			);
 			path = Homework1Tests;
 			sourceTree = "<group>";
@@ -260,6 +281,8 @@
 				AFFC1F9D14E5D242001E2CEA /* main.m in Sources */,
 				AFFC1FA114E5D242001E2CEA /* AppDelegate.m in Sources */,
 				AFFC1FA714E5D242001E2CEA /* ViewController.m in Sources */,
+				AFFC1FC714E5D267001E2CEA /* Tweet.m in Sources */,
+				AF500A0514E60436003948DC /* TwitterUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +291,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFFC1FBC14E5D242001E2CEA /* Homework1Tests.m in Sources */,
+				AF5009FE14E600F6003948DC /* TwitterUsersTests.m in Sources */,
+				AF500A0214E60240003948DC /* TweetTests.m in Sources */,
+				AF500A0614E60436003948DC /* TwitterUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +457,7 @@
 				AFFC1FC114E5D242001E2CEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFFC1FC214E5D242001E2CEA /* Build configuration list for PBXNativeTarget "Homework1Tests" */ = {
 			isa = XCConfigurationList;
@@ -439,6 +466,7 @@
 				AFFC1FC414E5D242001E2CEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
